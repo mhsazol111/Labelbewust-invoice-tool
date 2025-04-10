@@ -14,7 +14,6 @@ import { stateToHTML } from 'draft-js-export-html';
 
 import dynamic from 'next/dynamic';
 
-// @ts-expect-error - dynamic import
 const Editor = dynamic(() => import('react-draft-wysiwyg').then((mod) => mod.Editor), {
   ssr: false,
 });
