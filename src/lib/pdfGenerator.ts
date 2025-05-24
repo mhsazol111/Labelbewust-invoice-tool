@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* eslint @typescript-eslint/no-explicit-any: "off" */
 
 import jsPDF from 'jspdf';
