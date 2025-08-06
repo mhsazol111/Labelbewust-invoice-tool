@@ -253,12 +253,12 @@ const ReportTemplate = ({ projectDetails, sections }) => {
         <Image
           src={headerWhiteLogo}
           alt="headerWhiteLogo"
-          className=" h-14 w-40 absolute top-2 left-4"
+          className=" h-14 w-40 absolute top-8 left-4"
         />
         <Image
           src={triSquareRevImage}
           alt="triSquareRevImage"
-          className="h-20 w-20 object-contain absolute -top-2 -right-2"
+          className="h-20 w-20 object-contain absolute top-4 -right-2"
         />
         <span className=" text-[#257044] text-3xl font-bold absolute right-28 top-6 tracking-wider">
           OFFERTE
